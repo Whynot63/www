@@ -1,0 +1,137 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>FLAT ROUNDED SQUARE UI KIT</title>
+		<link href="web/css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		 <link rel="stylesheet" href="web/css/jquery.sidr.light.css">
+		 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		  <link rel="stylesheet" href="web/css/style.css">
+		 <script src="web/js/jquery.sidr.min.js"></script>
+		 <script type="text/javascript" src="web/js/login.js"></script>
+		  <!----Calender -------->
+		  <link rel="stylesheet" href="web/css/clndr.css" type="text/css" />
+		  <script src="web/js/underscore-min.js"></script>
+		  <script src= "web/js/moment-2.2.1.js"></script>
+		  <script src="web/js/clndr.js"></script>
+		  <script src="web/js/site.js"></script>
+		  <!----End Calender -------->
+		  <!----images-text-sliedr---->
+		 <link rel="stylesheet" href="web/css/responsiveslides.css">
+		<script src="web/js/responsiveslides.min.js"></script>
+		  <script>
+		    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 1
+			      $("#slider1").responsiveSlides({
+			        maxwidth: 1600,
+			        speed: 600
+			      });
+			});
+		  </script>
+		  <!---starrt-bx-slider---->
+		  <!-- bxSlider Javascript file -->
+			<script src="web/js/jquery.bxslider.min.js"></script>
+			<!-- bxSlider CSS file -->
+			<link href="web/css/jquery.bxslider.css" rel="stylesheet" />
+			<script>
+				$(document).ready(function(){
+					  $('.bxslider').bxSlider();
+				});
+			</script>
+			<!----progress-meter---->
+			<script>
+				$(function() {
+					$(".meter > span").each(function() {
+						$(this)
+							.data("origWidth", $(this).width())
+							.width(0)
+							.animate({
+								width: $(this).data("origWidth")
+							}, 1200);
+					});
+				});
+			</script>
+			<!----//progress-meter---->
+		</head>
+		<body>
+			<div class="wrap">
+				<div class="navigations">
+			<!---start-header---->
+			<div class="frist-nav">
+				<div id="mobile-header">
+				    <a id="responsive-menu-button" href="#sidr-main"><img src="web/images/nav-icon.png" alt="" /></a>
+				</div>
+				<div class="top-menus">
+					<br/>
+					<div id="navigation">
+						
+				    <nav class="nav frist-top-nav">
+				        <ul>
+				            <li><a href="#"><span class="qurter-icon1"> </span>stats</a></li>
+				            <li><a class="mess" href="#"><span class="mess-icon1"> </span>Message<label>3</label></a></li>
+				            <li class="active"><a href="#"><span class="bref-icon1"> </span>My work</a></li>
+				        </ul>
+				    </nav>
+				    <div class="top-nav-right">
+				    	<div class="profile_details">
+				    		   <div id="loginContainer">
+				                  <a id="loginButton" class=""><span>Me</span></a>   
+				                    <div id="loginBox" style="display: none;">                
+				                      <form id="loginForm">
+				                        <fieldset id="body">
+				                            <div class="user-info">
+							        			<h4>Hello,<a href="#"> Username</a></h4>
+							        			<ul>
+							        				<li class="profile active"><a href="#">Profile </a></li>
+							        				<li class="logout"><a href="#"> Logout</a></li>
+							        				<div class="clear"></div>		
+							        			</ul>
+							        		</div>			                            
+				                        </fieldset>
+				                    </form>
+				                </div>
+				            </div>
+				             <ul class="menu sub-menu profile_img">
+								<li><a class="active-icon c1" href="#"> </a>
+									<ul class="sub-menu">
+										<li>
+											<a href=""><img src="web/images/supr.png" alt="" />Profile</a>
+										</li>
+										<li>
+											<a href=""><img src="web/images/start.png" alt="" />Favourites</a>
+										</li>
+						
+										<li>
+											<a href=""><img src="web/images/gar.png" alt="" />Settings</a>
+										</li>
+										<li>
+											<a href=""><img src="web/images/logout.png" alt="" />Logout</a>
+										</li>
+									</ul>
+								</li>
+							</ul>	
+				             <div class="clear"> </div>		  	
+					    </div>
+				    </div>
+				   <div class="clear"> </div>		  	
+				</div>
+				<script>
+				    $('#responsive-menu-button').sidr({
+				      name: 'sidr-main',
+				      source: '#navigation'
+				    });
+				</script>
+			</div>
+		</body>
+</html>
+
